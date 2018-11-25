@@ -5,7 +5,9 @@ let blackID = [];
 let whiteID = [];
 
 // 오목판 그려주기
-
+alert('모바일로 접속시 크롬을 이용해주세요!');
+alert('오목게임 친구와 번갈아가며 돌을 둘수있습니다.');
+alert('오목을 다시 하고싶다면 새로고침을 눌러주세요.');
 // 오목돌 놓기
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.col').forEach(el => { // el(=element) -> 선택한 요소
